@@ -11,8 +11,8 @@ for job in jobs:
     published_date = job.find('span', class_ = 'sim-posted').span.text
 
     print(f'''
-    Company Name: {company_name}
-    Required Skills: {skills}
+Company Name: {company_name}
+Required Skills: {skills}
     ''')
 
     print('')
